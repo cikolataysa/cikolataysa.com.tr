@@ -11317,12 +11317,24 @@ html {
   letter-spacing: 0.1rem;
 }
 
+header.bg-style-index {
+background-image:url("../assets/img/bg.jpg");
+}
+
+header.bg-style-contact {
+background-image:url("../assets/img/contact.jpg");
+}
+
+header.bg-style-about {
+background-image:url("../assets/img/about.jpg");
+}
+
 header.masthead {
   position: relative;
   overflow: hidden;
   padding-top: calc(7rem + 72px);
   padding-bottom: 7rem;
-  background-image:url("../assets/img/bg.jpg");
+  
   
   /*
   background: linear-gradient(0deg, #785237 0%, #5a361c 100%);
